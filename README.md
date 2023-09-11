@@ -1,12 +1,11 @@
-#Entity-Relationship Diagram and Unified Modeling Diagram
+<h1>Entity-Relationship Diagram and Unified Modeling Diagram<h1>
 
-###Entity-Relationship Diagram
+<h2>Entity-Relationship Diagram<h2>
 An Entity-Relationship Diagram (ERD) is a visual representation used in database design to depict the structure and relationships between different entities (or tables) within a database system. ERDs are a critical tool for database developers, designers, and stakeholders to understand and communicate how data is organized and connected in a database.
 Entities: These represent the main objects or concepts in the database, such as customers, products, employees, or orders. Each entity is typically depicted as a rectangle in the diagram.
 Attributes: Attributes describe the properties or characteristics of each entity. For example, a "Customer" entity may have attributes like "CustomerID," "FirstName," "LastName," and "Email.";
 Relationships: Relationships illustrate how entities are connected to one another. They show how data is related and can be used to establish links between different entities. Common types of relationships include one-to-one, one-to-many, and many-to-many.
-
-###Entities
+<h2>Entities</h2>
 Entities can be categorized into different types based on their roles and characteristics within the database model. 
 Strong Entities: These are entities that can exist independently and have their attributes. They represent primary objects in the database. For example, in a university database, the "Student" entity is a strong entity with attributes like student ID, name, and date of birth.
 Weak Entities: Weak entities depend on a related strong entity for their existence. They do not have a primary key attribute of their own but instead have a partial key that connects them to a strong entity. A common example is the "Address" entity, which may rely on a "Person" entity to exist.
@@ -17,7 +16,7 @@ Singleton Entities: These entities represent a single, unique instance within th
 Historical Entities: These entities are used to store historical data, such as records of past transactions or changes in status. Historical entities often have attributes like "Effective Date" and "End Date" to track when data was valid.
 External Entities: In some database models, external entities represent entities from external systems or sources that interact with the database. They are often used in data modeling to illustrate how the database interfaces with external systems or data.
 
-###Types of Attributes
+<h2>Types of Attributes</h2>
 Attributes: Attributes are characteristics or properties that describe entities. Attributes provide detailed information about the entities represented in a database.
 Simple Attributes: These are atomic attributes that cannot be divided any further. For instance, "EmployeeID" or "FirstName" are simple attributes because they represent singular data elements.
 Composite Attributes: Composite attributes can be divided into sub-parts that have independent meaning. For example, an "Address" attribute may consist of sub-attributes like "Street," "City," "State," and "ZIP Code."
